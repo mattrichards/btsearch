@@ -1,0 +1,446 @@
+
+Thread 68 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a59a in _pthread_cond_wait ()
+#2  0x00007fff8d6a8ff8 in CVDisplayLink::waitUntil ()
+#3  0x00007fff8d6a84b3 in CVDisplayLink::runIOThread ()
+#4  0x00007fff8d6a829b in startIOThread ()
+#5  0x00007fff9514a05a in _pthread_body ()
+#6  0x00007fff95149fd7 in _pthread_start ()
+#7  0x00007fff951473ed in thread_start ()
+
+Thread 67 (process 16602):
+#0  0x00007fff88f4b94a in __workq_kernreturn ()
+#1  0x00007fff95149b29 in _pthread_wqthread ()
+#2  0x00007fff951473dd in start_wqthread ()
+
+Thread 66 (process 16602):
+#0  0x00007fff88f4b94a in __workq_kernreturn ()
+#1  0x00007fff95149b29 in _pthread_wqthread ()
+#2  0x00007fff951473dd in start_wqthread ()
+
+Thread 65 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+
+Thread 64 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+
+Thread 63 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00007fff8d6a8558 in CVDisplayLink::runIOThread ()
+#3  0x00007fff8d6a829b in startIOThread ()
+#4  0x00007fff9514a05a in _pthread_body ()
+#5  0x00007fff95149fd7 in _pthread_start ()
+#6  0x00007fff951473ed in thread_start ()
+
+Thread 62 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 61 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 60 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 59 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 58 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 57 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+#2  0x0000000102bcd058 in mozilla::LoadInfo::MaybeIncreaseTainting ()
+#3  0x00007fff95149fd7 in _pthread_start ()
+#4  0x00007fff951473ed in thread_start ()
+
+Thread 56 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 55 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 54 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206a3 in PR_WaitCondVar ()
+
+Thread 53 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 52 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 51 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 50 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 49 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 48 (process 16602):
+#0  0x00007fff88f4b012 in open$NOCANCEL ()
+#1  0x00007fff8f17a30f in fopen ()
+#2  0x0000000125fbae2a in pipe_thread ()
+#3  0x00007fff9514a05a in _pthread_body ()
+#4  0x00007fff95149fd7 in _pthread_start ()
+#5  0x00007fff951473ed in thread_start ()
+
+Thread 47 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 46 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 45 (process 16602):
+#0  0x00007fff88f4c7ba in sem_wait ()
+#1  0x0000000125fbf10f in lp_get_javascript_message ()
+#2  0x000000010584b6d4 in ffi_call_unix64 ()
+#3  0x00000001289601c8 in ?? ()
+
+Thread 44 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 43 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 42 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 41 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 40 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 39 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+#2  0x00007fff909cceb4 in __CFRunLoopServiceMachPort ()
+#3  0x00007fff909cc37b in __CFRunLoopRun ()
+#4  0x00007fff909cbbd8 in CFRunLoopRunSpecific ()
+#5  0x00007fff8c02556b in _NSEventThread ()
+#6  0x00007fff9514a05a in _pthread_body ()
+#7  0x00007fff95149fd7 in _pthread_start ()
+#8  0x00007fff951473ed in thread_start ()
+
+Thread 38 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 37 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 36 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 35 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 34 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 33 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 32 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 31 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 30 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x0000000102bc2c28 in mozilla::LoadInfo::MaybeIncreaseTainting ()
+#3  0x8000000000000000 in ?? ()
+
+Thread 29 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x0000000102bc2c28 in mozilla::LoadInfo::MaybeIncreaseTainting ()
+#3  0x8000000000000000 in ?? ()
+
+Thread 28 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 27 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 26 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 25 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 24 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 23 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206a3 in PR_WaitCondVar ()
+
+Thread 22 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 21 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 20 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+
+Thread 19 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+
+Thread 18 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 17 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 16 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 15 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 14 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 13 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 12 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 11 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 10 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 9 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 8 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 7 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 6 (process 16602):
+#0  0x00007fff88f4b3fa in select$DARWIN_EXTSN ()
+#1  0x000000010070bfd5 in poll ()
+
+Thread 5 (process 16602):
+#0  0x00007fff88f4b136 in __psynch_cvwait ()
+#1  0x00007fff9514a560 in _pthread_cond_wait ()
+#2  0x00000001007206bd in PR_WaitCondVar ()
+Cannot access memory at address 0xffffffff
+Previous frame inner to this frame (gdb could not unwind past this frame)
+
+Thread 4 (process 16602):
+#0  0x00007fff88f4c21a in kevent ()
+#1  0x0000000102bd260c in mozilla::LoadInfo::MaybeIncreaseTainting ()
+
+Thread 3 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+#2  0x0000000104beb7af in catch_exception_raise ()
+#3  0x00007fff95149fd7 in _pthread_start ()
+#4  0x00007fff951473ed in thread_start ()
+
+Thread 2 (process 16602):
+#0  0x00007fff88f4c232 in kevent64 ()
+#1  0x00007fff97078615 in _dispatch_mgr_invoke ()
+#2  0x00007fff9707826e in _dispatch_mgr_thread ()
+
+Thread 1 (process 16602):
+#0  0x00007fff88f464de in mach_msg_trap ()
+#1  0x00007fff88f4564f in mach_msg ()
+#2  0x00007fff909cceb4 in __CFRunLoopServiceMachPort ()
+#3  0x00007fff909cc37b in __CFRunLoopRun ()
+#4  0x00007fff909cbbd8 in CFRunLoopRunSpecific ()
+#5  0x00007fff910d356f in RunCurrentEventLoopInMode ()
+#6  0x00007fff910d32ea in ReceiveNextEventCommon ()
+#7  0x00007fff910d312b in _BlockUntilNextEventMatchingListInModeWithFilter ()
+#8  0x00007fff8bf5d8ab in _DPSNextEvent ()
+#9  0x00007fff8bf5ce58 in -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] ()
+#10 0x000000010434dbe2 in mac_plugin_interposing_child_OnShowCursor ()
